@@ -8,9 +8,14 @@ import Seo from "../components/seo"
 const IndexPage = () => (
   <Layout>
     <Seo title="Home" />
-    <h2>Hi people</h2>
-    <p>Welcome to your new Gatsby site.</p>
-    <p>Now go build something great.</p>
+    <div>
+        <div className="hero-text">
+          <h1 className="hero-h1">Robert Aguilar</h1>
+          <p className="hero-para">React/Shopify  Developer </p>
+        </div>
+        <div className="hero-picture"></div>
+    </div>
+    
     
     <p>
       <Link to="/page-2/">page 2</Link> <br />
