@@ -29,8 +29,10 @@ const Layout = ({ children }) => {
       
         <main>{children}</main>
         <footer>
+          <p>
         RobertsWebCreations © {new Date().getFullYear()}, All Rights Reserved.
           {` `}
+          </p>
         </footer>
       
     </>

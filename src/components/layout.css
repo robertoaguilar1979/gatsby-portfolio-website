@@ -67,15 +67,74 @@ a {
   text-decoration: inherit;
 }
 
-.hero-para {
+.hero-wrapper {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.hero-text {
+  margin-left: .5em;
+}
+
+.hero-text__react-shopify {
   font-family: Roboto;
   font-size: 1.25rem;
   font-style: normal;
   font-weight: 500;
   line-height: 23px;
-  letter-spacing: 0.83em;
+  letter-spacing: 0.88em;
   text-align: left;
   color: #51DDE8;
 
+  height: 28px;
+  width: 650px;
+  left: 85px;
+  top: 326px;
+  margin-bottom: 1.75em;
+  margin-left: .30em;
 
+
+
+}
+
+.hero-text__mainText {
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 27px;
+  letter-spacing: 0em;
+  text-align: left;
+
+  height: 83px;
+  width: 539px;
+  left: 85px;
+  top: 400px;
+  margin-left: .30em;
+
+
+}
+
+.hero-text__btn {
+  padding: 0.65em 2.85em;
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 27px;
+  letter-spacing: 0em;
+  text-align: left;
+
+  background: #4E62DE;
+  border-radius: 8px;
+  margin-top: 1.15em;
+  display: inline-block;
+  margin-left: .30em;
+
+
+
+}
+
+footer {
+  font-size: 1.13rem;
 }
