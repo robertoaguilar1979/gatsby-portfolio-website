@@ -1,12 +1,13 @@
 import * as React from "react"
 import PropTypes from "prop-types"
 import Logo from "../images/logo.svg"
+import { Link } from "gatsby"
 
 const Header = () => (
   <header>
     <div>
       <nav>
-        <div className="logo"><a href="index.html"><img src={Logo} alt="logo" /></a></div>
+        <div className="logo"><Link to="../pages/index/"><img src={Logo} alt="logo" /></Link></div>
         <div className="links">
           <ul>
             <li><a href="#home">Home</a></li>
