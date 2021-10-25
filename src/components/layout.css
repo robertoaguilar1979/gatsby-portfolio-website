@@ -1,48 +1,47 @@
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display+SC:wght@400;700;900&family=Poppins:wght@400;500;600;700;800;900&family=Roboto:wght@400;500;700;900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display+SC:wght@400;700;900&family=Poppins:wght@400;500;600;700;800;900&family=Roboto:wght@400;500;700;900&display=swap");
 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-
-  ;
-
 }
 
 body {
-  font-family: 'Poppins', sans-serif;
-  background: linear-gradient(180deg, #0D1117 0%, #1B255E 53.12%, #0D1117 96.35%);
+  font-family: "Poppins", sans-serif;
+  background: linear-gradient(
+    180deg,
+    #0d1117 0%,
+    #1b255e 53.12%,
+    #0d1117 96.35%
+  );
   background-repeat: no-repeat;
-  color: #C3CCD9;
+  color: #c3ccd9;
   line-height: 1.4;
   font-size: 2.25rem;
-
-
 }
 
 h1 {
-  font-family: 'Playfair Display SC', serif;
+  font-family: "Playfair Display SC", serif;
   font-size: 64px;
   font-style: normal;
   font-weight: 700;
   line-height: 85px;
   letter-spacing: 0.1em;
   text-align: left;
-
 }
 
-.logo {}
+.logo {
+}
 
 nav {
   max-width: 1440px;
   margin: 0 auto;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   height: 70px;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  color: #C3CCD9;
-
+  color: #c3ccd9;
 }
 
 nav ul {
@@ -54,7 +53,6 @@ nav ul {
   font-weight: 500;
   font-size: 1.35rem;
   line-height: 21px;
-
 }
 
 nav li {
@@ -63,7 +61,7 @@ nav li {
 
 a {
   text-decoration: none;
-  color: #C3CCD9;
+  color: #c3ccd9;
   text-decoration: inherit;
 }
 
@@ -73,7 +71,7 @@ a {
 }
 
 .hero-text {
-  margin-left: .5em;
+  margin-left: 0.5em;
 }
 
 .hero-text__react-shopify {
@@ -84,17 +82,14 @@ a {
   line-height: 23px;
   letter-spacing: 0.88em;
   text-align: left;
-  color: #51DDE8;
+  color: #51dde8;
 
   height: 28px;
-  width: 650px;
+  max-width: 650px;
   left: 85px;
   top: 326px;
   margin-bottom: 1.75em;
-  margin-left: .30em;
-
-
-
+  margin-left: 0.3em;
 }
 
 .hero-text__mainText {
@@ -107,12 +102,10 @@ a {
   text-align: left;
 
   height: 83px;
-  width: 539px;
+  max-width: 539px;
   left: 85px;
   top: 400px;
-  margin-left: .30em;
-
-
+  margin-left: 0.3em;
 }
 
 .hero-text__btn {
@@ -125,14 +118,11 @@ a {
   letter-spacing: 0em;
   text-align: left;
 
-  background: #4E62DE;
+  background: #4e62de;
   border-radius: 8px;
   margin-top: 1.15em;
   display: inline-block;
-  margin-left: .30em;
-
-
-
+  margin-left: 0.3em;
 }
 
 footer {
