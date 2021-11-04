@@ -10,8 +10,8 @@ export const BodyFontSize = styled.p`
   text-align: left;
 `
 export const BabyBlue = styled.p`
-  background: #51dde8;
+  color: #51dde8;
 `
 export const Green = styled.p`
-  background: #20f24e;
+  color: #20f24e;
 `

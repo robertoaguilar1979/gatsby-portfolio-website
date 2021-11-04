@@ -4,6 +4,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 
 body {
@@ -50,23 +51,6 @@ a {
   text-decoration: none;
   color: #c3ccd9;
   text-decoration: inherit;
-}
-
-.hero-text__btn {
-  padding: 0.65em 2.85em;
-  font-family: Poppins;
-  font-size: 18px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 27px;
-  letter-spacing: 0em;
-  text-align: left;
-
-  background: #4e62de;
-  border-radius: 8px;
-  margin-top: 1.15em;
-  display: inline-block;
-  margin-left: 0.3em;
 }
 
 footer {

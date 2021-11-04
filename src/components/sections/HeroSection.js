@@ -1,6 +1,6 @@
 import React from "react"
 import styled from "styled-components"
-
+import Button from "../button/Button"
 function HeroSection() {
   return (
     <>
@@ -13,9 +13,7 @@ function HeroSection() {
             that has a passion in helping the small to medium business thrive
             online.{" "}
           </HeroTextMainText>
-          <a href="" className="hero-text__btn">
-            Email Me
-          </a>
+          <Button />
         </HeroText>
         <div className="hero-picture"></div>
       </HeroWrapper>
