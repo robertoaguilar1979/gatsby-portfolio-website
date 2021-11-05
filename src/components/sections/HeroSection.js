@@ -1,6 +1,8 @@
 import React from "react"
 import styled from "styled-components"
 import Button from "../button/Button"
+// import HeroPicture from ".../images/hero-picture.svg"
+
 function HeroSection() {
   return (
     <>
@@ -15,7 +17,8 @@ function HeroSection() {
           </HeroTextMainText>
           <Button />
         </HeroText>
-        <div className="hero-picture"></div>
+        {/* <HeroPic></HeroPic> */}
+        <img src="" alt="" className="HeroImg" />
       </HeroWrapper>
     </>
   )
@@ -71,3 +74,6 @@ const HeroTextMainText = styled.p`
   top: 400px;
   margin-left: 0.3em;
 `
+// const HeroPic = styled.div`
+//   background-image: url(${HeroPicture});
+// `

@@ -15,3 +15,6 @@ export const BabyBlue = styled.p`
 export const Green = styled.p`
   color: #20f24e;
 `
+export conts Font60 = styled.p`
+font-size:2.25rem;
+`

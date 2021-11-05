@@ -56,3 +56,7 @@ a {
 footer {
   font-size: 1.13rem;
 }
+
+.HeroImg {
+  background-image: url(..images/hero-picture.svg);
+}
